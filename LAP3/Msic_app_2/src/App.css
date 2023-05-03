@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital@1&display=swap');
+
+body {
+    font-family: 'STIX Two Text', serif;
+    text-align: center;
+}
+
+h1 { 
+    font-family: 'STIX Two Text', serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+li { list-style-type: upper-roman;}
+
+
+button { border: 2px solid black;
+    border-radius: 20px; 
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 1.5rem;
+    background-color: white;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+  }
+
+.center {
+    text-align: center;
+    margin-bottom: 1px;
+  }
+
+.card {
+    border: solid black ;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 20px 10px 20px 10px;
+}
+
+.song-liked {background-color: rgb(0, 199, 0);
+    border: solid green ;
+color: rgb(0, 65, 0)}
+
+.genre {
+    text-decoration: underline;
+}

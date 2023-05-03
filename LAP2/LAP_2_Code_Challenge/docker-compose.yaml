@@ -1,0 +1,25 @@
+version: '3'
+services:
+  client:
+    image: node:12.18.3
+    ports: 
+      - 8080:8080
+    volumes:
+      - type: bind
+        source: ./LAP_2_Code_Challenge_Client
+        target: /code
+    working_dir: /code
+    command: bash -c "npm install && npm run dev"
+    api:
+        image: node:12.18.4
+        working_dir: /code
+        volumes:
+          - type: bind
+            source: ./LAP_2_Code_Challenge_Server
+            target: /code
+      db:
+        image: postgres:12.4
+        environment: 
+          - POSTGRES_USER=Shav
+        volumes:
+          - "./db/migrations:/docker-entrypoint-initdb.d/:ro"

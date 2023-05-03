@@ -1,0 +1,39 @@
+{
+  "name": "fp_study_notes_intro_to_webpack",
+  "version": "1.0.0",
+  "description": "[Intro to Webpack](https://github.com/getfutureproof/fp_guides_wiki/wiki/Intro-to-Webpack)",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-cli serve --mode development --config config/webpack.config.dev.js",
+    "build": "webpack --config config/webpack.config.production.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getfutureproof/fp_study_notes_intro_to_webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getfutureproof/fp_study_notes_intro_to_webpack/issues"
+  },
+  "homepage": "https://github.com/getfutureproof/fp_study_notes_intro_to_webpack#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.1",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.5.1",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

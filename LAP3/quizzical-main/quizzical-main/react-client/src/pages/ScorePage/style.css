@@ -1,0 +1,93 @@
+:root {
+  --heading-text: "Pacifico";
+  --content-text: "Nunito", sans-serif;
+  --content: white;
+}
+
+#score-page{
+  background-image: url('../../images/score-desktop.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#playerscore {
+  color: whitesmoke;
+  font-family: var(--content-text);
+  /* padding-top: 10rem; */
+  padding-left: 2rem;
+  font-size: 1.8rem;
+  /* display: flex;
+  /* justify-content: row; 
+  flex-direction: row; */
+} 
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: whitesmoke;
+  border-radius: 0.5rem;
+  color: #ca2bfc;
+  font-size: 1.1rem;
+}
+
+button:hover {
+  background-color: #ca2bfc;
+  color: whitesmoke;
+  transition-duration: 0.3s;
+}
+
+.score-banner{
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-evenly; 
+  /* flex-direction: row; */
+  /* width: 60%; */
+  /* text-align: center;*/
+  /* margin: 0 auto;   */
+}
+
+/* .left{
+  justify-content: left;
+
+
+}
+
+/* .left:after{
+  content: ":" ;
+} */
+
+/* .right{
+  justify-content: right;
+} */
+
+.wrapper {
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+h4 {
+  width: 40%; 
+text-align: center;
+font-size: 1rem
+}
+
+
+@media screen and (max-width: 450px) {
+  #score-page {
+      background-image: url('../../images/score-mobile.jpg');
+      padding-left: 0rem;
+  }
+  #playerscore {
+    font-size: 0.9rem;
+          padding-left: 0.5rem;
+  }
+  #score-page h2 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "demo-pig-latiniser",
+  "version": "1.0.0",
+  "description": "Basic Pig Latiniser",
+  "main": "./src/pigLatin.js",
+  "bin": {
+    "pigLatinise": "index.js"
+  },
+  "scripts": {
+    "test": "jest --watchAll",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getfutureproof/fp_study_notes_actions_in_JavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getfutureproof/fp_study_notes_actions_in_JavaScript/issues"
+  },
+  "homepage": "https://github.com/getfutureproof/fp_study_notes_actions_in_JavaScript#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "meow": "^9.0.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}

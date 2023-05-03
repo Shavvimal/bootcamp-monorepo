@@ -1,0 +1,14 @@
+form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: */
+}
+
+form #location {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+

@@ -1,0 +1,20 @@
+version: '3'
+services:
+  api:
+    image: node:12.18.4
+    working_dir: /code
+    volumes:
+      - type: bind
+        source: ./api
+        target: /code
+
+  db:
+    image: mongo:latest
+    environment: 
+      - MONGO_INITDB_ROOT_USERNAME=quizzicalTeam
+      - MONGO_INITDB_ROOT_PASSWORD=quizzical1234
+    volumes:
+      - "dbdata:/var/lib/mongodb/data"
+      - "./db/migrations:/docker-entrypoint-initdb.d/:ro"
+volumes:
+  dbdata:

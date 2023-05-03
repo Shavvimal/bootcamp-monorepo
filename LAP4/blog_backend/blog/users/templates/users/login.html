@@ -1,0 +1,11 @@
+{% extends "posts/base.html" %}
+
+{% block content %}
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <br>
+        <input type="submit" value="Login" class="text-white bg-black rounded-full w-auto mx-auto px-20">
+    </form>
+
+{% endblock content %}

@@ -1,0 +1,6 @@
+[submodule "mca-client"]
+	path = mca-client
+	url = ../mca-client.git
+[submodule "mca-server"]
+	path = mca-server
+	url = ../mca-server.git

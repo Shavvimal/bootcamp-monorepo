@@ -1,0 +1,17 @@
+{% extends "posts/base.html" %}
+
+{% block content %}
+    <h1 class="text-3xl">Shav Blog Back-end</h1>
+    <ul>
+        {% for dog in doggos %}
+            <li>
+                <a href="{% url 'dog-show' dog_id=dog.id %}">
+                    {{ dog.name }}
+                </a>
+                {% if dog.owner %} <span class="helptext">(adopted)</span> {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+   
+    <a class="px-30" href="{% url 'dog-create' %}"> <button class="bg-gray-200 border rounded-full px-30 w-3/12 mx-auto">Post</button></a>
+{% endblock content %}

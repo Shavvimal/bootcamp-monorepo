@@ -1,0 +1,66 @@
+{
+	"namesake": {
+		  "name": "Robert Tappan Morris",
+		  "materials": [
+          {
+            "type": "video",
+            "url": "X-JJ9ksH_jQ"
+          }
+		  ]
+	},
+	"students": [
+		{
+			"name": "Scott Ryan"
+		},
+		{
+			"name": "Sammie Howard"
+		},
+		{
+			"name": "Monica Segarra"
+		},
+		{
+			"name": "Dan Cooper"
+		},
+		{
+			"name": "James Derrick"
+		},
+		{
+			"name": "Polina Moore"
+		},
+		{
+			"name": "Zak Gogi"
+		},
+		{
+			"name": "Ridwan Axmed"
+		},
+		{
+			"name": "Tom Virgo"
+		},
+		{
+			"name": "Maximilian Hartley"
+		},
+		{
+			"name": "Shav Vimalendiran",
+			"github": "Shavvimal",
+			"materials": [
+				{
+					"type": "cv"
+				},
+				{
+					"type": "portfolio",
+					"url": "https://shav-vimalendiran.netlify.app/"
+				},
+				{
+                    "type": "video",
+                    "url": "ViGKpai8Dyc"
+                }
+			]
+},
+
+
+		{
+			"name": "Akash Khambay"
+
+		}
+	]
+}
